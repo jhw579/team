@@ -1,0 +1,95 @@
+body{
+    width:100%;
+    height:100%;
+}
+.cont{
+    width: 87%;
+    height: 76%;
+    background: #fff;
+    position: absolute;
+    top: 4.5rem;
+    left: 1rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+.conts{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cont .xq{
+    display: inline-block;
+    width:100%;
+    height:0.725rem;
+    line-height: 0.725rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #00913e;
+    font-size: 0.75rem;
+}
+.cont .close{
+    color: #00913e;
+    font-size: 1rem;
+    position: absolute;
+    top:0.4rem;
+    right:1rem;
+}
+
+.cont .rule{
+    width: 90%;
+    height: 2.925rem;
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+    color: #333;
+    font-size: 0.75rem;
+}
+
+.cont .pai{
+    display: inline-block;
+    width: 90%;
+    height: 0.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    color: #666;
+    font-size: 0.7rem;
+}
+.cont .if{
+    display: inline-block;
+    width: 90%;
+    height: 0.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    color: #666;
+    font-size: 0.7rem; 
+}
+.cont .table{
+    width: 95%;
+    height: 12.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    color: #666;
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+    border:1px solid #ccc; 
+}
+.cont .tab{
+    width:100%;
+    height:1.7rem;
+    color:#666;
+    font-size:0.7rem;
+}
+
+.cont .left{
+    width:49%;
+    height:1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    float: left;
+}
+.cont .right{
+    width:49%;
+    height:1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    float: right;
+}

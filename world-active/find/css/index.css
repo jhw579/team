@@ -1,0 +1,173 @@
+*{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	width:100%;
+	height:100%;
+	background: #F5F8FA;
+	/*position: relative;*/
+	/*overflow: hidden;*/
+	/*touch-action:none;*/
+}
+.bg{
+	width: 100%;
+	height: 7.9rem;
+	background:url(../images/logo.png);
+	background-size: 100% 100%;
+}
+.list{
+	width: 95%;
+	height: 8rem;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: -1.1rem;
+	border-radius: 0.5rem;
+	z-index: 10;
+}
+.ul{
+	width: 100%;
+	height: 5rem;
+	float: left;
+	border-radius: 0.3rem;
+	border-bottom: 1px solid #ccc;
+}
+.ul li{
+	width: 25%;
+	height: 75%;
+	list-style: none;
+	float: left;
+	margin-left: 1.2rem;
+	margin-top:0.7rem;
+}
+.ul li img{
+	width: 75%;
+	height: 75%;
+	background-size: 100% 100%;
+	margin-top: 
+}
+.ul li p{
+	width: 65%;
+	margin-left: 0.5rem;
+	color:#8086a5;
+}
+.left{
+	width: 48.5%;
+	height: 3rem;
+	float: left;
+	line-height: 3rem;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	border-top:0.01rem solid #ccc;
+}
+.left .one{
+	color: #FDA363;
+	font-size: 0.7rem;
+}
+.left .two{
+	color: #ccc;
+	font-size: 0.5rem;
+}
+.right{
+	width: 51%;
+	height: 3rem;
+	float: left;
+	line-height: 3rem;
+	border: 0;
+	text-align: center;
+	border-top:0.01rem solid #ccc;
+}
+.right .one{
+	color: #FDA363;
+	font-size: 0.7rem;
+}
+.right .two{
+	color: #ccc;
+	font-size: 0.5rem;
+}
+
+.img_list{
+	margin-top:0.2rem;
+	width:95%;
+	height:4.3rem;
+	/*background: #fff;*/
+	border-radius:0.5rem;
+	margin-left:0.5rem;
+}
+.img_list li{
+	width:47%;
+	height:4.0rem;
+	float:left;
+	margin:0.3rem 0.2rem;
+	border-radius:0.5rem;
+}
+.img_list li img{
+	width:100%;
+	height:100%;
+	border-radius:0.5rem;
+}
+.font_list{
+	margin-top:0.3rem;
+	width:95%;
+	height:8rem;
+	margin-left:0.5rem;
+	border-radius: 0.5rem;
+	background: #fff;
+}
+.font_list li{
+	width:100%;
+	height:2.6rem;
+	border-bottom:0.01rem solid #ccc;
+}
+.font_list li div{
+	float:left;
+}
+.font_list li .img{
+	width:13%;
+	height:2.6rem;
+	margin-left:0.5rem;
+}
+.font_list li .img img{
+	margin-top:0.55rem;
+	width:67%;
+	text-align:center;
+}
+.font_list li .font{
+	width:70%;
+	height:2.6rem;
+}
+.font_list li .font .p1{
+	width:100%;
+	height:1rem;
+	margin-top:0.4rem;
+	line-height:1rem;
+	font-size:0.7rem;
+	color:#8086a5;
+}
+.font_list li .font .p2{
+	color:#cacfe7;
+}
+.font_list li .arow{
+	float:right;
+	margin-right:6%;
+	margin-top:0.8rem;
+}
+.font_list li .arow img{
+	width: 140%;
+}
+.jiang{
+	width:3.4rem;
+	height:2.0rem;
+	position: fixed;
+	top:75%;
+	right:6%;
+}
+.jiang img{
+	width:100%;
+	height:100%;
+}

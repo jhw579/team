@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/m-common.css">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/share.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="up-bg">
+            <div class="jiangbei">
+                <img src="images/jingcai.png" alt="">
+            </div>
+            <div class="hongbao">
+                <a href="shareLayer1.html"><img src="images/hongbao.png" alt=""></a>
+            </div>
+            <div class="btn">
+                <img src="images/text.png" alt="">
+            </div>
+        </div>
+        <div class="down-bg"></div>
+    <div class="black"></div>
+        <div class="content">
+            
+            <img src="images/logo.png" alt="" class="content-img">
+            <span  class="content-number1">恭喜你获得现金红包</span>
+            <div class="close">x</div>
+            <div class="content-font">
+                <span>100</span>
+                <p>元</p>
+            </div>
+            <div class="content-line"></div>
+            <span class="content-number2">输入手机号</span>
+            <div class="content-input">
+                <input type="text"  placeholder="输入手机号领现金红包" id="phone">
+            </div>
+            <span class="content-iphone">手机号有误</span>
+            <a href="javascript:'" id="btn"><img src="images/button.png" alt="" class="button"></a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+            var phone=$("#phone");
+            phone.on('blur',function () {
+                var pv=phone.val();
+                console.log(pv);
+                var reg=/^(13|14|15|18)[0-9]{9}$/;
+                if(reg.test(pv)){
+                    $(".content-iphone").css('display','block');
+                    $(".content-iphone").html("手机号正确");
+                    $("#btn").attr("href","shareLayer1.html")
+                }else{
+                    $(".content-iphone").css('display','block');
+                    $(".content-iphone").html("手机号错误");
+                    $("#btn").attr("href","javascript:;");
+                }
+            })
+            $('.btn').on('click',function(){
+                $('.content').css('display','block');
+                $('.black').css('display','block');
+            })
+            $('.close').on('click',function(){
+                $('.content').css('display','none');
+                $('.black').css('display','none');
+            })
+
+    </script>
+</body>
+
+</html>

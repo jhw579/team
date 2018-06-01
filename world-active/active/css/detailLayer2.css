@@ -1,0 +1,92 @@
+
+.cont1{
+    width: 87%;
+    height: 96%;
+    background: #fff;
+    position: absolute;
+    top: 25rem;
+    left: 1rem;
+    border-radius: 0.5rem;
+    display: none;
+}
+.cont1 .conts{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cont1 .xq{
+    display: inline-block;
+    width:100%;
+    height:0.725rem;
+    line-height: 0.725rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #00913e;
+    font-size: 0.75rem;
+}
+.cont1 .close{
+    color: #00913e;
+    font-size: 1rem;
+    position: absolute;
+    top:0.4rem;
+    right:1rem;
+}
+
+.cont1 .rule{
+    width: 90%;
+    height: 2.925rem;
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+    color: #333;
+    font-size: 0.75rem;
+}
+
+.cont1 .pai{
+    display: inline-block;
+    width: 90%;
+    height: 0.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    color: #666;
+    font-size: 0.7rem;
+}
+.cont1 .if{
+    display: inline-block;
+    width: 90%;
+    height: 0.725rem;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    color: #666;
+    font-size: 0.7rem; 
+}
+.cont1 .table{
+    width: 95%;
+    height: 18.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    color: #666;
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+    border:1px solid #ccc; 
+}
+.cont1 .tab{
+    width:100%;
+    height:1.7rem;
+    color:#666;
+    font-size:0.7rem;
+}
+
+.cont1 .left{
+    width:50%;
+    height:1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    float: left;
+}
+.cont1 .right{
+    width:50%;
+    height:1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+    float: right;
+}
